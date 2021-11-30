@@ -65,6 +65,9 @@ a{
   margin-top:1.5rem;
   width:3.5rem;
 }
+.round{
+  border-radius:100%;
+}
 .pebble-img{
   margin:auto;
   width:380px;
@@ -72,5 +75,36 @@ a{
 @media (max-width:400px){
   .pebble-img{
     width:80%;
+  }
+}
+
+/* work */
+.description{
+  font-size:18px;
+  padding:10px;
+  text-align:center;
+}
+.buy{
+  text-decoration:underline;
+}
+.work-container{
+  margin-top:100px;
+}
+.work-thumbnail{
+  display:inline-block;
+  margin:auto;
+  width:300px;
+}
+.see-detail{
+  display:inline-block;
+  padding:10px;
+  writing-mode:vertical-rl;
+}
+@media (max-width:420px){
+  .work-thumbnail{
+    width:80%;
+  }
+  .see-detail{
+    writing-mode:horizontal-tb;
   }
 }
